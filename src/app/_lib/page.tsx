@@ -1,7 +1,11 @@
 import React from "react";
 
 const PrivateFolder = () => {
-  return <div></div>;
+  return (
+    <div>
+      <h1>This page is private</h1>
+    </div>
+  );
 };
 
 export default PrivateFolder;
