@@ -17,7 +17,7 @@ const AuthLayout = ({ children }: { children: React.ReactNode }) => {
 
   return (
     <div>
-      <div className="mt-4">
+      <div>
         <input value={input} onChange={(e) => setInput(e.target.value)} />
       </div>
       {navLinks.map((link) => {
